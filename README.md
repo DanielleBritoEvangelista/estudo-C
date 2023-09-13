@@ -20,12 +20,12 @@ O objetivo principal deste repositório é acompanhar o meu progresso no curso d
   - Descrição: Visão geral da linguagem C e recursos para iniciantes.
 
 - [x] <span style="color:green">**C: conhecendo a Linguagem das Linguagens - Jogo da Adivinhação**</span>
-  - Código do módulo: [jogo-da-adivinhacao](/jogo-da-adivinhacao)
+  - Código do módulo: [jogo-da-adivinhacao](https://github.com/DanielleBritoEvangelista/estudo-C/blob/main/advinhacao.c)
   - Data de conclusão: 2023-09-20
   - Descrição: Implementação de um jogo de adivinhação em C.
 
 - [ ] <span style="color:green">**C: avançando na linguagem - Jogo da Forca**</span>
-  - Código do módulo: [jogo-da-forca](/jogo-da-forca)
+  - Código do módulo: [jogo-da-forca](https://github.com/DanielleBritoEvangelista/estudo-C/blob/jogo-da-forca/jogoDaForca.c)
   - Data de conclusão: Em andamento
   - Descrição: Avançando no estudo da linguagem C com um jogo da forca.
 
