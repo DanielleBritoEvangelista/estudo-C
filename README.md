@@ -12,12 +12,10 @@ O objetivo principal deste repositório é acompanhar o meu progresso no curso d
 ## 📂 Módulos
 
 - [x] <span style="color:green">**Começando a programar com C**</span>
-  - Código do módulo: [comecando-a-programar](/comecando-a-programar)
   - Data de conclusão: 2023-09-10
   - Descrição: Introdução ao C e aos conceitos básicos de programação.
 
 - [x] <span style="color:green">**C (A Linguagem de Programação que é uma MÃE) // Dicionário do Programador - YouTube**</span>
-  - Código do módulo: [c-linguagem-de-programacao](/c-linguagem-de-programacao)
   - Data de conclusão: 2023-09-15
   - Descrição: Visão geral da linguagem C e recursos para iniciantes.
 
@@ -32,7 +30,6 @@ O objetivo principal deste repositório é acompanhar o meu progresso no curso d
   - Descrição: Avançando no estudo da linguagem C com um jogo da forca.
 
 - [ ] <span style="color:green">**C: recursos avançados da linguagem**</span>
-  - Código do módulo: [recursos-avancados](/recursos-avancados)
   - Data de conclusão: Em andamento
   - Descrição: Exploração de recursos avançados da linguagem C.
 
