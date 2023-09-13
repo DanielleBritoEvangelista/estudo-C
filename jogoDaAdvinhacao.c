@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int main ()
-{
-    //imprime o cabeçalho do jogo
+
+int main() {
+    // Imprime o cabeçalho do jogo
     printf("\n          P  /_\\  P                              \n");
     printf("         /_\\_|_|_/_\\                            \n");
     printf("     n_n | ||. .|| | n_n          Bem vindo ao    \n");
@@ -12,13 +12,15 @@ int main ()
     printf("    |_____| ' _ ' |_____|                         \n");
     printf("          \\__|_|__/                              \n");
 
+    // Obtém o tempo atual em segundos para usar como semente para o gerador de números aleatórios
     int segundos = time(0);
     srand(segundos);
 
-    int numeroGrande = rand(); 
+    // Gera um número aleatório grande e calcula o número secreto como o resto da divisão desse número por 100
+    int numeroGrande = rand();
+    int numeroSecreto = numeroGrande % 100; // O número secreto está no intervalo de 0 a 99
 
-    int numeroSecreto = numeroGrande % 100; //define a variável numeroSecreto como 42
-    int chute;              //define a variável chute
+    int chute;              // Define a variável chute
     int tentativas = 0;
     double pontos = 1000;
     int acertou = 0;
@@ -40,11 +42,11 @@ int main ()
         numeroDeTentativas = 6;
     }
 
+    // Loop principal do jogo
     for (int i = 1; i <= numeroDeTentativas; i++) {
-
-        printf("Tentativa %d\n", tentativas+1); //imprime a mensagem
-        printf("Qual o seu chute? \n"); //imprime a mensagem
-        scanf("%d", &chute); //lê o chute do usuário
+        printf("Tentativa %d\n", tentativas + 1); // Imprime a mensagem
+        printf("Qual o seu chute? \n"); // Imprime a mensagem
+        scanf("%d", &chute); // Lê o chute do usuário
 
         if (chute < 0) {
             printf("Voce nao pode chutar numeros negativos!\n");
@@ -71,16 +73,15 @@ int main ()
 
     printf("Fim de jogo!\n");
 
-    if (acertou)
-    {
+    // Verifica se o jogador acertou ou perdeu e exibe a mensagem correspondente
+    if (acertou) {
         printf("Parabens! Voce acertou!\n");
         printf("Voce acertou em %d tentativas!\n", tentativas);
         printf("Total de pontos: %.2f \n", pontos);
-
     }
-    else
-    {
+    else {
         printf("Voce perdeu! Tente de novo!\n");
     }
 
+    return 0; // Retorna 0 para indicar que o programa foi executado com sucesso
 }
