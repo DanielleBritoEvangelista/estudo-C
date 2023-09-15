@@ -11,25 +11,25 @@ O objetivo principal deste repositório é acompanhar o meu progresso no curso d
 
 ## 📂 Módulos
 
-- [x] <span style="color:green">**Começando a programar com C**</span>
+- <span style="color:green">[x]</span> **Começando a programar com C**
   - Data de conclusão: 2023-09-10
   - Descrição: Introdução ao C e aos conceitos básicos de programação.
 
-- [x] <span style="color:green">**C (A Linguagem de Programação que é uma MÃE) // Dicionário do Programador - YouTube**</span>
+- <span style="color:green">[x]</span> **C (A Linguagem de Programação que é uma MÃE) // Dicionário do Programador - YouTube**
   - Data de conclusão: 2023-09-15
   - Descrição: Visão geral da linguagem C e recursos para iniciantes.
 
-- [x] <span style="color:green">**C: conhecendo a Linguagem das Linguagens - Jogo da Adivinhação**</span>
+- <span style="color:green">[x]</span> **C: conhecendo a Linguagem das Linguagens - Jogo da Adivinhação**
   - Código do módulo: [jogo-da-adivinhacao](https://github.com/DanielleBritoEvangelista/estudo-C/blob/main/advinhacao.c)
   - Data de conclusão: 2023-09-20
   - Descrição: Implementação de um jogo de adivinhação em C.
 
-- [ ] <span style="color:green">**C: avançando na linguagem - Jogo da Forca**</span>
+- [ ] **C: avançando na linguagem - Jogo da Forca**
   - Código do módulo: [jogo-da-forca](https://github.com/DanielleBritoEvangelista/estudo-C/blob/jogo-da-forca/jogoDaForca.c)
   - Data de conclusão: Em andamento
   - Descrição: Avançando no estudo da linguagem C com um jogo da forca.
 
-- [ ] <span style="color:green">**C: recursos avançados da linguagem**</span>
+- [ ] **C: recursos avançados da linguagem**
   - Data de conclusão: Em andamento
   - Descrição: Exploração de recursos avançados da linguagem C.
 
