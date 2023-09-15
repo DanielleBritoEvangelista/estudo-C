@@ -1,56 +1,90 @@
 #include <stdio.h>
 #include <string.h>
 
+//variaveis globais
+char palavraSecreta[20];
+char chutes[26];
+int tentativas = 0;
+
 void abertura () {
     printf("***********************\n");
     printf("**** Jogo da Forca ****\n");
     printf("***********************\n\n");
 }
 
-void chuta (char chutes[26], int* tentativas) {
+void chuta () {
     char chute;
     printf("Qual letra? ");
     scanf(" %c", &chute);
 
-    chutes[(*tentativas)] = chute;
-    (*tentativas)++;
+    chutes[(tentativas)] = chute;
+    (tentativas)++;
 
 }
-int main () {
-    char palavraSecreta[20];
 
+int jaChutou (char letra) {
+    int achou = 0;
+
+    for (int j = 0; j < tentativas; j++) {
+
+        if (chutes[j] == letra) {
+            achou = 1;
+            break;
+        }
+    }
+
+    return achou;
+}
+
+void desenhaForca () {
+    for (int i =0; i < strlen(palavraSecreta); i++) {
+        
+        //aqui estava o codigo 
+        int achou = jaChutou(palavraSecreta[i]);    
+
+        if(achou) {
+            printf("%c ", palavraSecreta[i]);
+        } else {
+            printf("_ ");
+        }
+    }
+    printf("\n");
+}
+
+void escolhePalavra () {
     sprintf(palavraSecreta, "MELANCIA"); 
+}
 
+int enforcou () {
+
+    int erros =0;
+
+    for (int i = 0; i < tentativas; i++) {
+
+        int existe = 0;
+
+        for (int j = 0; j < strlen(palavraSecreta); j++) {
+            if (chutes[i] == palavraSecreta[j]) {
+                existe = 1;
+                break;
+            } 
+        }
+        if (!existe) erros++;
+    }
+
+    return erros >= 5;
+}
+
+int main () {
     int acertou = 0;
-    int enforcou = 0;
 
-    char chutes[26];
-    int tentativas = 0;
-
+    escolhePalavra();
     abertura();
 
     do {
 
-        for (int i =0; i < strlen(palavraSecreta); i++) {
-            
-            int achou = 0;
+        desenhaForca();
+        chuta();
 
-            for (int j = 0; j < tentativas; j++) {
-
-                if (chutes[j] == palavraSecreta[i]) {
-                    achou = 1;
-                    break;
-                }
-            }
-            if(achou) {
-                printf("%c ", palavraSecreta[i]);
-            } else {
-                printf("_ ");
-            }
-        }
-        printf("\n");
-
-        chuta(chutes, &tentativas);
-
-    } while (!acertou && !enforcou);
+    } while (!acertou && !enforcou());
 }
