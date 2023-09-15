@@ -11,15 +11,15 @@ O objetivo principal deste repositório é acompanhar o meu progresso no curso d
 
 ## 📂 Módulos
 
-- <span style="color:green">[x]</span> **Começando a programar com C**
+- [x] **Começando a programar com C**
   - Data de conclusão: 2023-09-10
   - Descrição: Introdução ao C e aos conceitos básicos de programação.
 
-- <span style="color:green">[x]</span> **C (A Linguagem de Programação que é uma MÃE) // Dicionário do Programador - YouTube**
+- [x] **C (A Linguagem de Programação que é uma MÃE) // Dicionário do Programador - YouTube**
   - Data de conclusão: 2023-09-15
   - Descrição: Visão geral da linguagem C e recursos para iniciantes.
 
-- <span style="color:green">[x]</span> **C: conhecendo a Linguagem das Linguagens - Jogo da Adivinhação**
+- [x] **C: conhecendo a Linguagem das Linguagens - Jogo da Adivinhação**
   - Código do módulo: [jogo-da-adivinhacao](https://github.com/DanielleBritoEvangelista/estudo-C/blob/main/advinhacao.c)
   - Data de conclusão: 2023-09-20
   - Descrição: Implementação de um jogo de adivinhação em C.
