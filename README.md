@@ -29,11 +29,6 @@ O objetivo principal deste repositório é acompanhar o meu progresso no curso d
   - Data de conclusão: 2023-09-27
   - Descrição: Avançando no estudo da linguagem C com um jogo da forca.
 
-- [ ] **C: recursos avançados da linguagem**
-  - Data de conclusão: Em andamento
-  - Descrição: Exploração de recursos avançados da linguagem C.
-
-
 Cada módulo representa uma etapa do curso, com os códigos relacionados e as práticas específicas. Para mais detalhes sobre o curso, visite [Alura](https://cursos.alura.com.br/formacao-linguagem-c).
 
 Sinta-se à vontade para explorar os códigos e usar este repositório como referência em sua jornada de aprendizado em C!
